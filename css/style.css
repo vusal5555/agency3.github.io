@@ -104,6 +104,8 @@
         padding-top: 10rem;
         align-items: flex-start;
         transition: all 0.5s; }
+    .header--hero-container {
+      margin: 8rem auto; }
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
