@@ -1,7 +1,7 @@
 .header {
   background-image: url(../images/bg.jpg);
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-position: center;
   padding-bottom: 5rem;
 
@@ -89,6 +89,12 @@
 }
 .fa-solid.fa-bars {
   display: none;
+}
+
+@media only screen and (max-width: 1900px) {
+  .header {
+    height: 135vh;
+  }
 }
 
 @media only screen and (max-width: 1600px) {
