@@ -19,6 +19,28 @@
   }
 }
 
+.btn-navbar {
+  background-image: linear-gradient(
+    to right,
+    hsl(335, 87%, 53%),
+    hsl(39, 100%, 52%)
+  );
+
+  border: none;
+  outline: none;
+
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 980px) {
+    background-image: linear-gradient(hsl(39, 100%, 52%), hsl(39, 100%, 52%));
+  }
+}
+
 .btn-card {
   border: none;
   outline: none;
