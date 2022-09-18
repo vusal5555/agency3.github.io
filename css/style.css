@@ -104,6 +104,7 @@
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
+        align-items: center;
         transition: all 0.5s;
         text-transform: uppercase; }
     .header--hero-container {
