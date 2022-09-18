@@ -135,6 +135,7 @@
         left: 0;
         text-align: center;
         z-index: 10;
+        overflow-y: auto;
         background-image: linear-gradient(
           hsl(236, 57%, 28%),
           hsl(335, 87%, 53%)
@@ -159,7 +160,7 @@
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 1rem;
 
     cursor: pointer;
@@ -170,7 +171,7 @@
   .fa-solid.fa-bars {
     display: block;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 1rem;
     cursor: pointer;
   }
